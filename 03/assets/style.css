@@ -1,0 +1,103 @@
+body {
+    background-color: black;
+    text-transform: uppercase;
+}
+
+.menu {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    width: 300px;
+}
+
+{
+    color: black;
+    text-decoration: none;
+    letter-spacing: 0;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+:hover {
+    letter-spacing: 8px;
+}
+
+#monday {
+    background-color: cyan;
+}
+
+#monday:hover {
+    background: darkorange;
+    transition: all linear 3s;
+}
+
+#monday:visited {
+    background: white;
+}
+
+#tuesday {
+    background-color: mediumspringgreen;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    transition: all linear 3s;
+}
+
+#tuesday:visited {
+    background-color: white;
+}
+
+#wednesday {
+    text-transform: uppercase;
+    background-color: coral;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: all linear 3s;
+}
+
+#wednesday:visited {
+    background-color: white;
+}
+
+#thursday {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: pink;
+    transition: all linear 3s;
+}
+
+#thursday:visited {
+    background-color: white;
+}
+
+#friday {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: goldenrod;
+    transition: all linear 3s;
+}
+
+#friday:visited {
+    background-color: white;
+}
+
+#saturday {
+    background-color: powderblue;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: all linear 3s;
+}
+
+#saturday:visited {
+    background-color: white;
+}
+
+#sunday {
+    background-color: greenyellow;
+    transition: all linear 3s;
+}
+
+#sunday:visited {
+    background-color: white;
+}
+
+.day {
+    margin-left: 300px;
+    position: absolute;
+}
