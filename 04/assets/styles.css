@@ -1,0 +1,104 @@
+@font-face {
+    font-family: Haptik;
+    src: url(GT-Haptik-Medium.woff2);
+}
+
+@font-face {
+    font-family: Sangbleu;
+    src: url(SangBleuEmpireEDU-Medium-WebS.woff2);
+}
+
+@font-face {
+    font-family: Euclid;
+    src: url(EuclidSquareEDU-Bold-WebS.woff2);
+}
+
+@font-face {
+    font-family: ;
+    src: url();
+}
+
+
+/*:root {
+    --blue: #0047ab;
+    --green: #3f3;
+    --yellow: #ffff00;
+    --purple: #800080;
+    --red: #f33;
+    --orange: #ff5e01;
+    --white: #eee;
+    --black: #111;
+    --background: rgb(34, 31, 35);
+}*/
+
+:root {
+    --blue: #eee;
+    --green: #eee;
+    --yellow: #eee;
+    --purple: #eee;
+    --red: #eee;
+    --orange: #eee;
+    --white: #eee;
+    --black: #eee;
+    --background: #eee;
+}
+
+body {
+    margin: 0;
+    font-family: Sangbleu;
+    font-size: 40px;
+}
+
+img {
+    mix-blend-mode: multiply;
+}
+
+.flex_container {
+    background-color: var(--background);
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.flex_item {
+    width: 40px;
+    height: 40px;
+}
+
+.blue-bg {
+    background-color: var(--blue);
+    flex-grow: 3;
+}
+
+.green-bg {
+    background-color: var(--green);
+}
+
+.yellow-bg {
+    background-color: var(--yellow);
+    flex-grow: ;
+}
+
+.purple-bg {
+    background-color: var(--purple);
+}
+
+.red-bg {
+    background-color: var(--red);
+}
+
+.orange-bg {
+    background-color: var(--orange);
+}
+
+.white-bg {
+    background-color: var(--white);
+}
+
+.black-bg {
+    background-color: var(--black);
+}

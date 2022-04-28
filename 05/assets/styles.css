@@ -1,0 +1,153 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background: blue;
+    align-items: center;
+    justify-content: space-between;
+    color: blue;
+}
+
+.item:hover {
+    color: black;
+    background-color: black;
+}
+
+.inner_item {
+    background: red;
+    display: flex;
+    flex-direction: row;
+    width: 80vw;
+    justify-content: flex-end;
+    color: red;
+}
+
+.inner_item:hover {
+    flex-direction: column;
+    color: aqua;
+    background: aqua;
+}
+
+.inner_inner_item {
+    background: magenta;
+    width: 10vw;
+    display: flex;
+    flex-direction: column;
+    color: magenta;
+}
+
+.inner_inner_item:hover {
+    flex-direction: row;
+    color: aqua;
+    background: aqua;
+}
+
+.inner_inner_inner_item {
+    background: greenyellow;
+    width: 10%;
+    color: greenyellow;
+}
+
+.item2 {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background: red;
+    align-items: flex-start;
+    justify-content: space-between;
+    color: red;
+}
+
+.item2:hover {
+    align-items: flex-end;
+    background-color: greenyellow;
+    color: greenyellow;
+}
+
+.inner_item2 {
+    background: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 80vw;
+    justify-content: flex-end;
+    color: white;
+}
+
+.inner_item2:hover {
+    flex-direction: column;
+}
+
+.inner_inner_item2 {
+    background: black;
+    width: 10vw;
+    display: flex;
+    flex-direction: column;
+    color: black;
+}
+
+.inner_inner_inner_item2 {
+    background: white;
+    width: 30%;
+    color: white;
+}
+
+.item3 {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background: black;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.item3:hover {
+    align-items: center;
+}
+
+.inner_item3 {
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-content: flex-start;
+    width: 80vw;
+    height: 80px;
+    justify-content: flex-start;
+    color: white;
+}
+
+.inner_item3:hover {
+    align-items: center;
+    color: aqua;
+    background-color: aqua;
+}
+
+.inner_inner_item3 {
+    background: black;
+    width: 300px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    color: black;
+    justify-content: flex-end;
+}
+
+.inner_inner_item3:hover {
+    height: 20px;
+    color: white;
+}
+
+.inner_inner_inner_item3 {
+    background: black;
+    width: 130%;
+    color: black;
+}
