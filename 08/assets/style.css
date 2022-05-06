@@ -8,8 +8,11 @@ body {
     border: solid 2px black;
     cursor: pointer;
     padding: 0.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1.5rem;
     margin: 0.5rem;
     z-index: 5;
+    font-size: 30px;
 }
 
 .katze {
