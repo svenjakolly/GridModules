@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.button {
+    background-color: transparent;
+    border: solid 2px black;
+    cursor: pointer;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    z-index: 5;
+}
+
+.katze {
+    width: 100%;
+}

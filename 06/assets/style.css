@@ -1,0 +1,87 @@
+.specialbutton {
+    background-color: transparent;
+    border-color: black;
+}
+
+.specialbutton:hover {
+    border-radius: 20px;
+}
+
+#element {
+    position: absolute;
+    top: calc(15px + 20vw);
+    left: 30px;
+    width: 200px;
+    height: 30px;
+    background-color: black;
+}
+
+#element2 {
+    position: absolute;
+    top: calc(40vw - 100px);
+    left: 10px;
+    width: 200px;
+    height: 50px;
+    font-size: 30px;
+    line-height: 70px;
+    z-index: 100;
+    background-color: transparent;
+}
+
+#myText {
+    color: black;
+    font-size: 100px;
+    line-height: 70px;
+    background-color: transparent;
+    border: none;
+}
+
+#myText:active {
+    border: none;
+}
+
+.random {
+    background-color: transparent;
+    border: solid black 3px;
+    width: 40vw;
+    height: 40vw;
+    border-radius: 50%;
+    position: absolute;
+    top: 40px;
+}
+
+.random2 {
+    background-color: transparent;
+    border: solid black 3px;
+    width: 300px;
+    height: 40vw;
+    position: absolute;
+    top: 40px;
+}
+
+.random3 {
+    background-color: transparent;
+    border: solid black 3px;
+    width: 300px;
+    height: 40vw;
+    position: absolute;
+    top: calc(80px + 40vw);
+}
+
+.random4 {
+    background-color: transparent;
+    width: 300px;
+    height: 40vw;
+    position: absolute;
+    top: calc(80px + 40vw);
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid black;
+}
+
+.bild {
+    position: absolute;
+    top: 300px;
+}
